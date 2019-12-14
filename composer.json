@@ -31,5 +31,5 @@
     "require-dev": {
         "roave/security-advisories": "dev-master"
     },
-    "minimum-stability": "0.1.0"
+    "minimum-stability": "stable"
 }
