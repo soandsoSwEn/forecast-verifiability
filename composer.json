@@ -1,0 +1,35 @@
+{
+    "name": "soandso/forecast-verifiability",
+    "description": "Weather forecast verifiability",
+    "type": "library",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Dmytriyenko Vyacheslav",
+            "email": "dmytriyenko.vyacheslav@gmail.com"
+        }
+    ],
+    "support": {
+        "issues": "https://soandso.biz/"
+    },
+    "config" : {
+        "sort-packages" : true
+    },
+    "autoload" : {
+        "psr-4" : {
+            "ForecastVerifiability\\" : "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ForecastVerifiability\\Tests\\": "tests"
+        }
+    },
+    "require": {
+        "php": "^7.0"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-master"
+    },
+    "minimum-stability": "0.1.0"
+}
